@@ -5,7 +5,6 @@ module MockBlockSolver
 
   importall MathProgBase.SolverInterface
   importall BlockDecomposition.BlockSolverInterface
-  importall BlockDecompositionExtras.BlockSolverInterface
 
   include("MockBlockSolverInterface.jl")
 
