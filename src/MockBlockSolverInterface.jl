@@ -57,6 +57,8 @@ end
 
 getcurrentcost(m::MockMathProgModel, varidx) = error("GetCurrentCost not implemented")
 
+set_oracles!(s::MockSolver, oracles) = (s.oracles = oracles)
+
 ################################################################################
 ##################### MathProgBase.SolverInterface #############################
 ## Loads problem data from the given file
